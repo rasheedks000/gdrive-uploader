@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+"beautifulsoup4" = "==4.6.0"
+google-api-python-client = "==1.7.3"
+google-auth = "==1.5.0"
+"google-auth-httplib2" = "==0.0.3"
+"httplib2" = "==0.18.0"
+more-itertools = "==4.2.0"
+ndg-httpsclient = "==0.4.0"
+oauth = "==1.0.1"
+"urllib3" = "==1.24.2"
+virtualenv = "==15.0.1"
+
+[requires]
+python_version = "3.5"
